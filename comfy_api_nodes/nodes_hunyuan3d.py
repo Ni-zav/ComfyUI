@@ -563,8 +563,8 @@ class TencentHunyuan3DExtension(ComfyExtension):
         return [
             TencentTextToModelNode,
             TencentImageToModelNode,
-            # TencentModelTo3DUVNode,
-            # Tencent3DTextureEditNode,
+            TencentModelTo3DUVNode,
+            Tencent3DTextureEditNode,
             Tencent3DPartNode,
         ]
 
